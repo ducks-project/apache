@@ -1,0 +1,31 @@
+{
+    "name": "ducks-project/apache",
+    "description": "PHP polyfill for the Apache Functions. The aim is to provides functions as the PHP way in order to get them available even if PHP is not running as an Apache module.",
+    "type": "library",
+    "keywords": ["PHP", "polyfill", "shim", "apache", "functions", "compat", "request", "response", "headers"],
+    "homepage": "http://github.com/ducks-project/apache/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Loyant",
+            "email": "donald_duck@team-df.org",
+            "homepage": "http://adrien.loyant.net",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "support": {
+        "email": "donald_duck@team-df.org"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ducks\\Component\\Apache\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
+
